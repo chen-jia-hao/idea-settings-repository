@@ -1,0 +1,18 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <removed_mapping ext="rs" type="Android RenderScript" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="proto" type="PLAIN_TEXT" />
+      <mapping ext="ini" type="PLAIN_TEXT" />
+      <mapping ext="rs" type="Rust" />
+      <mapping pattern="logback-spring" type="XML" />
+      <mapping pattern="struts" type="XML" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="proto" approved="true" type="protobuf" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
+      <removed_mapping pattern="logback-spring.xml" approved="true" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

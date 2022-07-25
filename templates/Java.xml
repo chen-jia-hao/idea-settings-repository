@@ -1,0 +1,27 @@
+<templateSet group="java">
+  <template name="test" value="@Test&#10;public void test$END$ () {&#10;    &#10;}" description="测试单元" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="list" value="List&lt;$END$&gt; list = new ArrayList&lt;&gt;();" description="ArrayList" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="map" value="Map&lt;String, Object$END$&gt; map = new HashMap&lt;&gt;(16);" description="HashMap" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sleep" value="try { Thread.sleep($END$);} catch (InterruptedException e) { e.printStackTrace();}" description="thread-sleep" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cost" value="Instant now = Instant.now();&#10;System.out.println(&quot;$END$ cost = &quot; + ChronoUnit.MILLIS.between(now, Instant.now()));" description="耗时毫秒打印" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
