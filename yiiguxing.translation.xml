@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Could not find netty-transport-native-epoll-4.1.73.Final-linux-x86_64.jar (io.netty:netty-transport-native-epoll:4.1.73.Final). Searched in the following locations: file:D:datarepositoryionettynetty-transport-native-epoll4.1.73.Finalnetty-transport-native-epoll-4.1.73.Final-linux-x86_64.jar" />
+      <item value="Possible solution: - Declare repository providing the artifact, see the documentation at" />
+      <item value="Using insecure protocols with repositories, without explicit opt-in, is unsupported. Switch Maven repository" />
       <item value="fail fast if the format is bad or null" />
       <item value="The project uses Gradle 2.14.1 which is incompatible with IntelliJ IDEA 2022.1.1." />
       <item value="by" />
@@ -37,12 +40,12 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="34" />
-        <entry key="ENGLISH" value="35" />
+        <entry key="CHINESE" value="37" />
+        <entry key="ENGLISH" value="38" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1658821471218" />
+    <option name="lastTrimTime" value="1659757710691" />
   </component>
 </application>
