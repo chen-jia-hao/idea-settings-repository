@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0." />
       <item value="Could not find netty-transport-native-epoll-4.1.73.Final-linux-x86_64.jar (io.netty:netty-transport-native-epoll:4.1.73.Final). Searched in the following locations: file:D:datarepositoryionettynetty-transport-native-epoll4.1.73.Finalnetty-transport-native-epoll-4.1.73.Final-linux-x86_64.jar" />
       <item value="Possible solution: - Declare repository providing the artifact, see the documentation at" />
       <item value="Using insecure protocols with repositories, without explicit opt-in, is unsupported. Switch Maven repository" />
@@ -40,8 +41,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="37" />
-        <entry key="ENGLISH" value="38" />
+        <entry key="CHINESE" value="38" />
+        <entry key="ENGLISH" value="39" />
       </map>
     </option>
   </component>
