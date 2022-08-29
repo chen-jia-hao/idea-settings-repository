@@ -5,7 +5,6 @@
       <mapping ext="main.kts" type="Kotlin" />
       <mapping ext="proto" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
-      <mapping ext="plantuml" type="PlantUML file" />
       <mapping pattern="logback-spring" type="XML" />
       <mapping pattern="struts" type="XML" />
       <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
@@ -13,6 +12,7 @@
       <removed_mapping ext="psd" approved="true" type="Image" />
       <removed_mapping ext="rs" approved="true" type="Android RenderScript" />
       <removed_mapping pattern="logback-spring.xml" approved="true" type="PLAIN_TEXT" />
+      <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>
   </component>
 </application>
