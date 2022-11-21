@@ -1,6 +1,9 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Returns the running coroutine plus a boolean, true when the running --- coroutine is the main one." />
+      <item value="Starts or continues the execution of coroutine `co`. The first time you --- resume a coroutine, it starts running its body. The values `val1`, ... --- are passed as the arguments to the body function. If the coroutine has --- yielded, `resume` restarts it; the values `val1`, ... are passed as the --- results from the yield. --- --- If the coroutine runs without any errors, `resume` returns true plus any --- values passed to `yield` (when the coroutine yields) or any values returned --- by the body function (when the coroutine terminates). If there is any error, --- `resume` returns false plus the error message." />
+      <item value="Starts or continues the execution of coroutine `co`. The first time you --- resume a coroutine, it starts running its body. The values `val1`, ... --- are passed as the arguments to the body function. If the coroutine has --- yielded, `resume` restarts it; the values `val1`, ... are passed as the --- results from the yield. --- --- If the coroutine runs without any errors, `resume` returns true plus any --- values passed to `yield` (when the coroutine yields) or any values returned --- by the body function (when the coroutine terminates). If there is any error, --- `resume` returns false plus the error message. ---@overload fun(co:thread):boolean|any ---@param co thread ---@param val1 string ---@return thread|any" />
       <item value="is a duplicate but no duplicate handling strategy has been set" />
       <item value="Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0." />
       <item value="Could not find netty-transport-native-epoll-4.1.73.Final-linux-x86_64.jar (io.netty:netty-transport-native-epoll:4.1.73.Final). Searched in the following locations: file:D:datarepositoryionettynetty-transport-native-epoll4.1.73.Finalnetty-transport-native-epoll-4.1.73.Final-linux-x86_64.jar" />
@@ -42,12 +45,20 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="39" />
+        <entry key="CHINESE" value="40" />
         <entry key="ENGLISH" value="40" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1660720195542" />
+    <option name="lastTrimTime" value="1669024540534" />
+  </component>
+  <component name="Settings">
+    <option name="aliTranslateSettings">
+      <app-key>
+        <option name="appId" value="LTAI5t9kgj1nQvWBqGoeCpRF" />
+      </app-key>
+    </option>
+    <option name="translator" value="ALI" />
   </component>
 </application>
