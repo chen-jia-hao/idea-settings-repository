@@ -1,6 +1,7 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead." />
       <item value="Returns the running coroutine plus a boolean, true when the running --- coroutine is the main one." />
       <item value="Starts or continues the execution of coroutine `co`. The first time you --- resume a coroutine, it starts running its body. The values `val1`, ... --- are passed as the arguments to the body function. If the coroutine has --- yielded, `resume` restarts it; the values `val1`, ... are passed as the --- results from the yield. --- --- If the coroutine runs without any errors, `resume` returns true plus any --- values passed to `yield` (when the coroutine yields) or any values returned --- by the body function (when the coroutine terminates). If there is any error, --- `resume` returns false plus the error message." />
       <item value="Starts or continues the execution of coroutine `co`. The first time you --- resume a coroutine, it starts running its body. The values `val1`, ... --- are passed as the arguments to the body function. If the coroutine has --- yielded, `resume` restarts it; the values `val1`, ... are passed as the --- results from the yield. --- --- If the coroutine runs without any errors, `resume` returns true plus any --- values passed to `yield` (when the coroutine yields) or any values returned --- by the body function (when the coroutine terminates). If there is any error, --- `resume` returns false plus the error message. ---@overload fun(co:thread):boolean|any ---@param co thread ---@param val1 string ---@return thread|any" />
@@ -51,7 +52,7 @@
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1669691897808" />
+    <option name="lastTrimTime" value="1670211380457" />
   </component>
   <component name="Settings">
     <option name="aliTranslateSettings">
